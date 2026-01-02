@@ -220,34 +220,6 @@ void minMaxSum(vector<long> arr) {
    ```
 
 
-### 💡 **Contribution Ideas**
-
-#### **Algorithm Categories Needed**
-- [ ] **Sorting Algorithms**: Bubble, selection, insertion, quick, merge
-- [ ] **Graph Theory**:  Shortest path, minimum spanning tree
-- [ ] **Data Structures**: Linked lists, trees, hash tables
-- [ ] **String Processing**: Pattern matching, text analysis
-- [ ] **Numerical Methods**: Integration, differentiation, root finding
-
-#### **Application Projects**
-- [ ] **Games**: Tic-tac-toe, Snake, Tetris
-- [ ] **Utilities**: File manager, text editor, image processor
-- [ ] **Simulations**: Physics simulations, genetic algorithms
-- [ ] **Network Tools**: Chat client, HTTP server
-- [ ] **Database**:  Simple database engine, query processor
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell... 
-```
 
 ## 👨‍💻 Author
 
