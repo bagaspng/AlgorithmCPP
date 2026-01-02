@@ -219,61 +219,6 @@ void minMaxSum(vector<long> arr) {
    inline int fastPower(int base, int exp) { /* optimized */ }
    ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how to contribute:
-
-### 🔄 **Development Guidelines**
-
-#### **Code Style Standards**
-```cpp
-// Follow consistent naming conventions
-class ClassName {           // PascalCase for classes
-private:
-    int memberVariable_;    // camelCase with underscore suffix
-    
-public: 
-    void methodName();      // camelCase for methods
-};
-
-const int GLOBAL_CONSTANT = 42;  // UPPER_CASE for constants
-
-// Function naming
-int calculateSum(const vector<int>& numbers);    // Descriptive names
-```
-
-#### **Documentation Standards**
-```cpp
-/**
- * @brief Calculates the nth Fibonacci number using iterative approach
- * @param n The position in Fibonacci sequence (1-indexed)
- * @return The nth Fibonacci number
- * @complexity Time: O(n), Space: O(1)
- * @example fibonacci(5) returns 5 (sequence: 1,1,2,3,5)
- */
-long long fibonacci(int n);
-```
-
-#### **Testing Guidelines**
-```cpp
-// Add unit tests for algorithms
-#include <cassert>
-
-void testFibonacci() {
-    assert(fibonacci(1) == 1);
-    assert(fibonacci(2) == 1); 
-    assert(fibonacci(5) == 5);
-    assert(fibonacci(10) == 55);
-    cout << "✅ Fibonacci tests passed!" << endl;
-}
-
-void testAllAlgorithms() {
-    testFibonacci();
-    testPrimeCheck();
-    testMatrixOperations();
-    // Add more test functions
-}
-```
 
 ### 💡 **Contribution Ideas**
 
