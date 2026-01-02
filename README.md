@@ -74,36 +74,6 @@ cd AlgorithmCPP
 
 ## 🎮 Cara Menggunakan
 
-### 🏃‍♂️ **Compile & Run Programs**
-
-#### **Single File Compilation**
-```bash
-# Compile single C++ file
-g++ -o program_name source_file.cpp
-
-# Example:  Compile calculator
-g++ -o calculator kalkulator-sederhana.cpp
-
-# Run the program
-./calculator          # Linux/macOS
-calculator.exe        # Windows
-```
-
-#### **Advanced Compilation Options**
-```bash
-# With optimization
-g++ -O2 -o optimized_program source. cpp
-
-# With debug information
-g++ -g -o debug_program source.cpp
-
-# With C++ standard specification
-g++ -std=c++17 -o modern_program source.cpp
-
-# With multiple files
-g++ -o multi_file main.cpp utils.cpp algorithms.cpp
-```
-
 ### 📁 **Directory Structure & Usage**
 
 ```
@@ -145,7 +115,7 @@ AlgorithmCPP/
 ### 🧮 **Calculator Programs**
 
 #### **Basic Calculator**
-```cpp name=kalkulator-sederhana. cpp url=https://github.com/bagaspng/AlgorithmCPP/blob/main/Belajar-cpp/kalkulator-sederhana.cpp
+```cpp name=kalkulator-sederhana.cpp url=https://github.com/bagaspng/AlgorithmCPP/blob/main/Belajar-cpp/kalkulator-sederhana.cpp
 #include <iostream>
 using namespace std;
 
