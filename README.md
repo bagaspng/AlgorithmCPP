@@ -218,78 +218,7 @@ void minMaxSum(vector<long> arr) {
    // Optimize algorithms for competitive programming
    inline int fastPower(int base, int exp) { /* optimized */ }
    ```
-
-
-
-## 🐛 Troubleshooting
-
-### ❓ **Common Compilation Issues**
-
-**Q: "fatal error: iostream:  No such file or directory"**
-```bash
-# Solution:  Install proper C++ compiler
-# Ubuntu/Debian
-sudo apt install build-essential
-
-# Windows:  Install MinGW or Visual Studio
-# macOS: Install Xcode command line tools
-xcode-select --install
-```
-
-**Q:  Undefined reference errors? **
-```bash
-# Link necessary libraries
-g++ -o program source.cpp -lm     # Math library
-g++ -o program source.cpp -lpthread   # Threading
-
-# For Windows-specific functions
-g++ -o program source.cpp -static-libgcc -static-libstdc++
-```
-
-**Q: Program crashes or gives wrong output?**
-```cpp
-// Add debugging information
-#include <cassert>
-
-int main() {
-    // Add assertions for testing
-    assert(fibonacci(5) == 5);
-    assert(isPrime(17) == true);
-    
-    // Add debug prints
-    #ifdef DEBUG
-        cout << "Debug: Variable x = " << x << endl;
-    #endif
-}
-
-// Compile with debug flag
-// g++ -DDEBUG -g -o program source.cpp
-```
-
-### 🔍 **Performance Issues**
-
-**Q: Program runs too slowly?**
-```bash
-# Compile with optimization
-g++ -O2 -o fast_program source.cpp
-
-# Profile to find bottlenecks
-g++ -pg -o profile_program source.cpp
-./profile_program
-gprof profile_program gmon.out > analysis.txt
-```
-
-**Q: Memory issues? **
-```bash
-# Check for memory leaks (Linux/macOS)
-valgrind --leak-check=full ./program
-
-# Use memory-efficient algorithms
-# Avoid unnecessary memory allocations
-vector<int> data;
-data.reserve(expected_size);  // Pre-allocate memory
-```
-
+   
 ## 🚀 Extensions & Improvements
 
 ### 🔮 **Future Enhancements**
