@@ -219,35 +219,6 @@ void minMaxSum(vector<long> arr) {
    inline int fastPower(int base, int exp) { /* optimized */ }
    ```
 
-### 🎯 **Performance Optimizations**
-
-#### **Code Optimization Techniques**
-```cpp
-// Fast I/O for competitive programming
-inline void fastIO() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
-}
-
-// Efficient modular arithmetic
-inline long long modPow(long long base, long long exp, long long mod) {
-    long long result = 1;
-    while(exp > 0) {
-        if(exp % 2 == 1) result = (result * base) % mod;
-        base = (base * base) % mod;
-        exp /= 2;
-    }
-    return result;
-}
-
-// Memory-efficient data structures
-struct CompactNode {
-    int data :  24;    // Use bit fields for memory efficiency
-    int flag : 8;
-};
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how to contribute:
