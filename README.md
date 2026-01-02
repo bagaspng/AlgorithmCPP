@@ -225,51 +225,13 @@ void minMaxSum(vector<long> arr) {
 
 **Bagas Pangestu** ([@bagaspng](https://github.com/bagaspng))
 
-- 📧 Email: bagaspangestu0407@gmail.com
-- 💼 LinkedIn: [Bagas Pangestu](https://linkedin.com/in/bagaspng)  
-- 🌐 Portfolio: [bagaspng.dev](https://bagaspng.dev)
-- 🎓 Expertise: C++ Programming, Algorithms, Competitive Programming
-
-## 🙏 Acknowledgments
-
-- **C++ Community** - For the rich ecosystem and standard library
-- **Competitive Programming Platforms** - HackerRank, Codeforces, AtCoder
-- **Algorithm Textbooks** - Cormen CLRS, Sedgewick, Knuth
-- **Open Source Contributors** - For inspiration and best practices
-
-## 📚 References
-
-### 📖 **Algorithm Resources**
-- [Introduction to Algorithms (CLRS)](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
-- [Algorithms by Robert Sedgewick](https://algs4.cs.princeton.edu/home/)
-- [Competitive Programming 3](https://cpbook.net/)
-
-### 🌐 **Online Learning Platforms**
-- [LeetCode](https://leetcode.com/) - Algorithm practice
-- [HackerRank](https://www.hackerrank.com/) - Programming challenges
-- [Codeforces](https://codeforces.com/) - Competitive programming
-- [GeeksforGeeks](https://www.geeksforgeeks. org/) - Algorithm tutorials
-
-### 📺 **Video Resources**
-- [MIT 6.006 Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
-- [Algorithms Specialization (Coursera)](https://www.coursera.org/specializations/algorithms)
-
-## 📞 Support
-
-Need help?  Contact us: 
-
-- 📖 **Documentation**: [Project Wiki](https://github.com/bagaspng/AlgorithmCPP/wiki)
-- 🐛 **Issues**: [Report Bugs](https://github.com/bagaspng/AlgorithmCPP/issues)
-- 💬 **Discussions**: [Q&A Forum](https://github.com/bagaspng/AlgorithmCPP/discussions)
-- 📧 **Email**: bagaspangestu0407@gmail.com
-
 ---
 
 <div align="center">
 
 **⚡ Mastering Algorithms, One Line of Code at a Time ⚡**
 
-[![GitHub stars](https://img.shields.io/github/stars/bagaspng/AlgorithmCPP? style=social)](https://github.com/bagaspng/AlgorithmCPP/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/bagaspng/AlgorithmCPP?style=social)](https://github.com/bagaspng/AlgorithmCPP/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/bagaspng/AlgorithmCPP?style=social)](https://github.com/bagaspng/AlgorithmCPP/network/members)
 
 **Made with ❤️ for the Programming Community**
