@@ -114,67 +114,19 @@ AlgorithmCPP/
 
 ### 🧮 **Calculator Programs**
 
-#### **Basic Calculator**
-```cpp name=kalkulator-sederhana.cpp url=https://github.com/bagaspng/AlgorithmCPP/blob/main/Belajar-cpp/kalkulator-sederhana.cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    char operasi;
-    double angka1, angka2;
-    
-    cout << "=== Kalkulator Sederhana ===" << endl;
-    cout << "Masukkan angka pertama: ";
-    cin >> angka1;
-    
-    cout << "Masukkan operator (+, -, *, /): ";
-    cin >> operasi;
-    
-    cout << "Masukkan angka kedua: ";
-    cin >> angka2;
-    
-    switch(operasi) {
-        case '+':  cout << "Hasil: " << angka1 + angka2; break;
-        case '-': cout << "Hasil: " << angka1 - angka2; break;
-        case '*': cout << "Hasil: " << angka1 * angka2; break;
-        case '/':  
-            if(angka2 != 0) cout << "Hasil:  " << angka1 / angka2;
-            else cout << "Error!  Pembagian dengan nol tidak diizinkan. ";
-            break;
-        default: cout << "Error! Operator tidak valid. ";
-    }
-    return 0;
-}
-```
-
 **Features:**
 - ✅ Four basic operations (+, -, *, /)
 - ✅ Division by zero protection
 - ✅ Input validation
 - ✅ User-friendly interface
 
-#### **Advanced Scientific Calculator**
-- 🔬 **Advanced Functions**:  Trigonometric, power, square root
-- 🎨 **Enhanced UI**: Menu-driven interface with borders
-- 🛡️ **Error Handling**: Comprehensive input validation
-- 🔄 **Loop Support**: Continuous operation capability
 
 ### 🔢 **Mathematical Algorithms**
 
 #### **Fibonacci Sequence Implementation**
 ```cpp
 long long fibonacci(int n) {
-    long long x1 = 1, x2 = 1;
-    
-    if (n == 1 || n == 2) return 1;
-    
-    for (int i = 1; i <= n - 2; i++) {
-        if (i % 2 != 0) x1 += x2;
-        else x2 += x1;
-    }
-    
-    return (x1 > x2) ? x1 : x2;
-}
+  ...
 ```
 
 **Algorithm Complexity:**
@@ -184,17 +136,8 @@ long long fibonacci(int n) {
 
 #### **Diagonal Difference Algorithm**
 ```cpp
-// Calculate absolute difference between matrix diagonals
 int diagonalDifference(int matrix[][n], int n) {
-    int primaryDiagonal = 0, secondaryDiagonal = 0;
-    
-    for(int i = 0; i < n; i++) {
-        primaryDiagonal += matrix[i][i];           // Main diagonal
-        secondaryDiagonal += matrix[n-1-i][i];     // Anti-diagonal
-    }
-    
-    return abs(primaryDiagonal - secondaryDiagonal);
-}
+  ...
 ```
 
 ### 🎨 **Pattern Generation Algorithms**
@@ -202,31 +145,7 @@ int diagonalDifference(int matrix[][n], int n) {
 #### **Pyramid Pattern Generator**
 ```cpp
 void generatePyramid(int height) {
-    for(int i = 0; i < height; i++) {
-        // Print leading spaces
-        for(int spaces = height; spaces > i; spaces--) {
-            cout << " ";
-        }
-        
-        // Print left side
-        cout << "/";
-        
-        // Print middle spaces
-        for(int middle = 1; middle <= i; middle++) {
-            cout << "  ";
-        }
-        
-        // Print right side
-        cout << "\\" << endl;
-    }
-    
-    // Print base
-    cout << "/";
-    for(int base = 0; base < height; base++) {
-        cout << "__";
-    }
-    cout << "\\";
-}
+  ...
 ```
 
 **Output Example (n=4):**
@@ -242,22 +161,7 @@ void generatePyramid(int height) {
 #### **Min-Max Sum Problem**
 ```cpp
 void minMaxSum(vector<long> arr) {
-    sort(arr.begin(), arr.end());
-    
-    long minSum = 0, maxSum = 0;
-    
-    // Calculate minimum sum (exclude largest element)
-    for(int i = 0; i < arr. size() - 1; i++) {
-        minSum += arr[i];
-    }
-    
-    // Calculate maximum sum (exclude smallest element)  
-    for(int i = 1; i < arr. size(); i++) {
-        maxSum += arr[i];
-    }
-    
-    cout << minSum << " " << maxSum << endl;
-}
+    ...
 ```
 
 ## 🛠️ Advanced Features
