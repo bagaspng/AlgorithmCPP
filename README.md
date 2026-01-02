@@ -3,9 +3,8 @@
 > Koleksi lengkap implementasi algoritma, struktur data, dan program C++ untuk pembelajaran programming dan competitive programming
 
 [![C++](https://img.shields.io/badge/C++-100%25-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://github.com/bagaspng/AlgorithmCPP)
-[![Standard](https://img.shields.io/badge/C++%20Standard-11/14/17-blue? style=flat-square&logo=cplusplus&logoColor=white)](https://github.com/bagaspng/AlgorithmCPP)
+[![Standard](https://img.shields.io/badge/C++%20Standard-11/14/17-blue?style=flat-square&logo=cplusplus&logoColor=white)](https://github.com/bagaspng/AlgorithmCPP)
 [![Algorithms](https://img.shields.io/badge/Category-Algorithms-success?style=flat-square&logo=algolia&logoColor=white)](https://github.com/bagaspng/AlgorithmCPP)
-[![License](https://img.shields.io/badge/License-MIT-blue. svg?style=flat-square)](LICENSE)
 
 ## 📋 Deskripsi
 
@@ -65,30 +64,6 @@ cl.exe
 clang++ --version
 ```
 
-### 🛠️ **Development Environment Setup**
-
-#### **Option 1: Command Line (GCC/G++)**
-```bash
-# Install MinGW di Windows atau build-essential di Linux
-# Windows (dengan Chocolatey)
-choco install mingw
-
-# Ubuntu/Debian
-sudo apt update
-sudo apt install build-essential
-
-# macOS (dengan Homebrew)
-brew install gcc
-```
-
-#### **Option 2: IDE Setup**
-```bash
-# Visual Studio Code dengan C++ Extension
-# Code:: Blocks
-# Dev-C++
-# CLion (JetBrains)
-# Visual Studio Community
-```
 
 ### 📥 **Clone Repository**
 
