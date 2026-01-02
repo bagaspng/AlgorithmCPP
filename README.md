@@ -164,75 +164,6 @@ void minMaxSum(vector<long> arr) {
     ...
 ```
 
-## 🛠️ Advanced Features
-
-### 📁 **File I/O Operations**
-
-```cpp name=aksesFile.cpp url=https://github.com/bagaspng/AlgorithmCPP/blob/main/aksesFile.cpp
-#include <iostream>
-#include <fstream>
-#include <cmath>
-using namespace std;
-
-int main() {
-    ofstream outFile;
-    outFile. open("Data.txt");
-    
-    if(outFile.is_open()) {
-        for(int x = 10; x < 26; x++) {
-            cout << x << "#" << pow(x, 2) << endl;
-            outFile << x << "#" << pow(x, 2) << endl;
-        }
-        outFile. close();
-        cout << "File saved successfully!" << endl;
-    } else {
-        cout << "Could not open file!" << endl;
-    }
-    
-    return 0;
-}
-```
-
-**File Operations Features:**
-- 📝 **Writing to files**:  ofstream operations
-- 📖 **Reading from files**: ifstream operations  
-- 🔄 **Append mode**: ios:: app flag support
-- 🛡️ **Error handling**: File open/close validation
-
-### 🔧 **Compilation Optimization**
-
-#### **Performance Optimization Flags**
-```bash
-# Optimization levels
-g++ -O0 source.cpp    # No optimization (debug)
-g++ -O1 source. cpp    # Basic optimization  
-g++ -O2 source.cpp    # Recommended optimization
-g++ -O3 source.cpp    # Aggressive optimization
-g++ -Os source.cpp    # Size optimization
-
-# Additional performance flags
-g++ -O2 -march=native -mtune=native source.cpp
-
-# Profiling and debugging
-g++ -pg source.cpp    # Enable profiling
-g++ -g -O0 source. cpp # Debug with symbols
-```
-
-#### **Modern C++ Standards**
-```bash
-# C++11 features
-g++ -std=c++11 -o modern source.cpp
-
-# C++14 features  
-g++ -std=c++14 -o modern source. cpp
-
-# C++17 features
-g++ -std=c++17 -o modern source.cpp
-
-# C++20 features (if supported)
-g++ -std=c++20 -o modern source.cpp
-```
-
 ## 🎓 Educational Content
 
 ### 📚 **Learning Path**
@@ -288,38 +219,7 @@ g++ -std=c++20 -o modern source.cpp
    inline int fastPower(int base, int exp) { /* optimized */ }
    ```
 
-### 🏆 **Competitive Programming Preparation**
 
-#### **Problem Categories Covered**
-- 📊 **Array Problems**: MinMaxSum, diagonal calculations
-- 🔢 **Number Theory**: Prime detection, Fibonacci
-- 🎨 **Implementation**: Pattern printing, calculators
-- 📐 **Mathematics**: Statistical operations, geometry
-
-#### **Problem Solving Strategies**
-```cpp
-// Template for competitive programming
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-using namespace std;
-
-int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    
-    // Fast I/O for competitive programming
-    int testCases;
-    cin >> testCases;
-    
-    while(testCases--) {
-        // Solution implementation
-    }
-    
-    return 0;
-}
-```
 
 ## 🐛 Troubleshooting
 
